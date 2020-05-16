@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 50px;
+  box-sizing: border-box;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.block{
+	padding: 10px;
+
+}
+.step1{
+	background-image: url(img/flow01.png);
+}
+.step2{
+	background-image: url(img/flow02.png);
+}

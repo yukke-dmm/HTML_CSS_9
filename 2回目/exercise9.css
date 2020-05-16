@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.clearfix{
+	content: "";
+	display: block;
+	clear: both;
+}
+main{
+	width: 960px;
+	margin: 50px auto;
+}
+.main-visual{
+	width: 300px;
+    padding: 10px;
+    margin-right: 30px;
+    float: left;
+    border:1px solid #eee;
+    /*これを入れるとステップ１とかが枠に入る*/
+    position: relative;
+}
+.main-visual:nth-child(3){
+	margin-right: 0; 
+}
+.img1{
+	height: 150px;
+	background-image: url(img/flow01.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.img2{
+	height: 150px;
+	background-image: url(img/flow02.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.img3{
+	height: 150px;
+	background-image: url(img/flow03.png);
+	background-size: cover;
+	background-position: bottom;
+}
+.step{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: orange;
+	color: #fff;
+}
